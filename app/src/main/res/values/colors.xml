@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- Màu cho nút bắt đầu -->
+    <color name="button_text">#F4F4F4</color>
+    <color name="button_background">#40000000</color>
+    <color name="button_stroke">#80FFFFFF</color>
+    <color name="button_pressed">#80333333</color>
 </resources>

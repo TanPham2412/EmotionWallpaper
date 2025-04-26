@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">EmotionWallpaper</string>
     <string name="title_activity_title_screen">TitleScreen</string>
+    <string name="start_button">BẮT ĐẦU</string>
 </resources>

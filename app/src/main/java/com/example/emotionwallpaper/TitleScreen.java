@@ -1,9 +1,10 @@
 package com.example.emotionwallpaper;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +25,12 @@ public class TitleScreen extends AppCompatActivity {
             return insets;
         });
         
-        Button startButton = findViewById(R.id.startButton);
+        TextView startButton = findViewById(R.id.startButton);
+        
+        // Sử dụng font tùy chỉnh từ assets
+        Typeface customFont = Typeface.createFromAsset(getAssets(), "fonts/PermanentMarker-Regular.ttf");
+        startButton.setTypeface(customFont);
+        
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
